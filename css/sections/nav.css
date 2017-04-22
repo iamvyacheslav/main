@@ -4,7 +4,7 @@
 }
 
 .nav__list{
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
 .nav__link{
@@ -25,6 +25,7 @@
 
 .nav__title{
   margin-left: 13px;
+  max-width: 150px;
 }
 
 .nav__item_active .nav__link{

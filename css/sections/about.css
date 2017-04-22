@@ -14,8 +14,9 @@
 }
 
 .about__left{
-  width: 340px;
+  width: 300px;
   float: left;
+  margin-left: 40px;
 }
 
 .about__right{
