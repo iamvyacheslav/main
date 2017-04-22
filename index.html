@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="ru-RU">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Обо мне</title>
   <link rel="stylesheet" href="css/layout/normalize.css">
   <link rel="stylesheet" href="css/layout/style.css">
   <link rel="stylesheet" href="css/layout/font-awesome.css">
@@ -29,14 +29,16 @@
               <img class="user__pic" src="img/header.jpg" alt="">
             </div>
             <div class="user__name">
-              Константин Константинов
+              <h6 class="user__title">Константин Константинов</h6>
             </div>
           </div>
         </div>
         <div class="header__right">
-          <a href="#" class="contacts">
-            Мои контакты
-          </a>
+
+  <!-- а как сделать что бы при клике на кнопку не высвечивался синий бордер -->
+          <button class="contacts">
+              Мои контакты
+          </button>
         </div>
       </div>
     </header>
@@ -86,13 +88,13 @@
           <div class="about">
             <div class="about__left">
               <div class="about__img">
-                <img class="about__pic" src="img/2.jpg" alt="">
+                <img class="about__pic" src="img/2.jpg" alt="Main photo">
               </div>
             </div>
             <div class="about__right">
-              <h5 class="about__h5">
+              <div class="about__title">
                 Обо мне
-              </h5>
+              </div>
             <div class="about__desc about__text">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque atque ullam nam impedit! Consequatur voluptatibus, reiciendis error recusandae eaque deleniti.
@@ -105,14 +107,10 @@
               </p>
             </div>
               <div class="download">
-                <a href="#" class="download__link" download>
-                  <span class="downlaod__icon">
+                  <butuon class="download__btn">
                     <i class="fa fa-download" aria-hidden="true"></i>
-                  </span>
-                  <span class="downlaod__title">
                     Скачать резюме
-                  </span>
-                </a>
+                  </butuon>
               </div>
             </div>
           </div>
@@ -130,23 +128,17 @@
         </div>
       </div>
       <div class="footer__right">
-        <ul class="footer__icons">
-          <li class="footer__item">
-            <a href="#" class="footer__link footer__link_fb">
-              <img src="img/icons/facebook.png" alt="facebook">
-            </a>
-          </li>
-          <li class="footer__item">
-            <a href="#" class="footer__link footer__link_vk">
-              <img src="img/icons/vk.png" alt="vk">
-            </a>
-          </li>
-          <li class="footer__item">
-            <a href="#" class="footer__link footer__link_tw">
-              <img src="img/icons/twitter.png" alt="twitter">
-            </a>
-          </li>
-        </ul>
+        <div class="footer__icons">
+          <a href="" class="footer__link footer__link_tw">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+          </a>
+          <a href="" class="footer__link footer__link_vk">
+            <i class="fa fa-vk" aria-hidden="true"></i>
+          </a>
+          <a href="" class="footer__link footer__link_fb">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+          </a>
+        </div>
       </div>
     </div>
   </footer>
