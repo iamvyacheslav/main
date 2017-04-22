@@ -1,0 +1,26 @@
+.sidebar, .about{
+  float: left;
+}
+
+.sidebar{
+  width: 220px;
+}
+
+.about{
+  width: 720px;
+}
+
+.download__link{
+  padding: 7px 13px;
+  border: 2px solid #e85f61;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #e85f61;
+  float: right;
+}
+
+.download__link:hover{
+  background: #e85f61;
+  color: #fff;
+}

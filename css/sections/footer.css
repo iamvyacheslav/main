@@ -1,0 +1,24 @@
+.footer__left, .footer__right{
+  width: 50%;
+  float: left;
+}
+
+.copyright{
+  line-height: 50px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #9c9c9c;
+}
+
+.footer__link{
+  float: right;
+  margin: 10px 5px 0 0;
+}
+
+.footer__link_fb:hover{
+  background: url(img/icons/facebookclr.png);
+}
+
+
+/*НЕ подключил шрифты
+не сделал соц. иконки*/

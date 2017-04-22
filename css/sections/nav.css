@@ -1,0 +1,33 @@
+.nav__link{
+  display: block;
+  padding: 10px 0;
+}
+
+.nav__list{
+  margin-right: 30px;
+}
+
+.nav__link{
+  text-align: right;
+  padding-right: 25px;
+  color: #646464;
+  border-right: 6px solid transparent;
+}
+
+.nav__link:hover{
+  color: #33c1e3;
+}
+
+.nav__icon, .nav__title{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.nav__title{
+  margin-left: 13px;
+}
+
+.nav__item_active .nav__link{
+  border-color: #33c1e3;
+  font-weight: 600;
+}

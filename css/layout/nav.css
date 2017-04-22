@@ -1,0 +1,9 @@
+.nav__link{
+  display: block;
+  padding: 10px 0;
+}
+
+.nav__icon, .nav__title{
+  display: inline-block;
+  vertical-align: middle;
+}
