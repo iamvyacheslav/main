@@ -11,14 +11,32 @@
 }
 
 .footer__link{
+  width: 31px;
+  height: 30px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  color: #414141;
+  background: #9c9c9c;
+  text-align: center;
+  border-radius: 50%;
+  margin: 10px 0 0 5px;
   float: right;
-  margin: 10px 5px 0 0;
+  vertical-align: middle;
 }
+
 
 .footer__link_fb:hover{
-  background: url(img/icons/facebookclr.png);
+  background: #4463a6;
+  color: #fff;
 }
 
 
-/*НЕ подключил шрифты
-не сделал соц. иконки*/
+.footer__link_vk:hover{
+ background: #5d99c3;
+ color: #fff;
+}
+
+.footer__link_tw:hover{
+  background: #6ac4d9;
+  color: #fff;
+}
