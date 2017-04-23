@@ -50,6 +50,7 @@ background: #fff;
 color: #32c3e5;
 font-size: 18px;
 cursor: pointer;
+outline-color: #fff;
 }
 
 .contacts__title{
