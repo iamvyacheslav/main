@@ -11,6 +11,7 @@
 }
 
 .footer__link{
+<<<<<<< HEAD
   color: #414141;
   display: inline-block;
   float: right;
@@ -26,6 +27,19 @@
 
 .footer__item{
 
+=======
+  width: 31px;
+  height: 30px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  color: #414141;
+  background: #9c9c9c;
+  text-align: center;
+  border-radius: 50%;
+  margin: 10px 0 0 5px;
+  float: right;
+  vertical-align: middle;
+>>>>>>> 2e945a8e126cc5177096219adc4380e5393f35ea
 }
 
 
