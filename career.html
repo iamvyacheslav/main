@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="ru-RU">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Карьера</title>
   <link rel="stylesheet" href="css/layout/normalize.css">
   <link rel="stylesheet" href="css/layout/style.css">
   <link rel="stylesheet" href="css/layout/font-awesome.css">
@@ -15,9 +15,12 @@
   <link rel="stylesheet" href="css/sections/nav.css">
   <link rel="stylesheet" href="css/sections/about.css">
   <link rel="stylesheet" href="css/sections/footer.css">
+
+  <link rel="stylesheet" href="css/sections/career.css">
 </head>
 <body>
   <div class="wrapper">
+
 <!-- header -->
 
     <header class="header">
@@ -25,101 +28,134 @@
         <div class="header__left">
           <div class="user">
             <div class="user__img">
-              <img class="user__pic" src="img/header.jpg" alt="">
+              <img class="user__pic" src="img/header.jpg" alt="Photo">
             </div>
             <div class="user__name">
-              Константин Константинов
+              <h6 class="user__title">Вячеслав Давидович</h6>
             </div>
           </div>
         </div>
         <div class="header__right">
-          <a href="#" class="contacts">
-            Мои контакты
-          </a>
+
+  <!-- а как сделать что бы при клике на кнопку не высвечивался синий бордер -->
+          <button class="contacts">
+              Мои контакты
+          </button>
         </div>
       </div>
     </header>
 <!-- section -->
-<section class="content">
-  <div class="container cf">
-    <aside class="sidebar">
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a href="#" class="nav__link">
-              <span class="nav__icon">
-                <i class="fa fa-user-secret nav__link-icon"></i>
-              </span>
-              <span class="nav__title">
-                Обо мне
-              </span>
-            </a>
-          </li>
-          <li class="nav__item">
-            <a href="#" class="nav__link">
-              <span class="nav__icon">
-                <i class="fa fa-rocket nav__link-icon"></i>
-              </span>
-              <span class="nav__title nav__item_active">
-                Карьерный путь
-              </span>
-            </a>
-          </li>
-          <li class="nav__item">
-            <a href="#" class="nav__link">
-              <span class="nav__icon">
-              <i class="fa fa-briefcase nav__link-icon"></i>
-              </span>
-              <span class="nav__title">
-                Портфолио
-              </span>
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </aside>
+    <section class="content">
+      <div class="container cf">
+        <aside class="sidebar">
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="index.html" class="nav__link">
+                  <span class="nav__icon">
+                    <i class="fa fa-user-secret nav__link-icon"></i>
+                  </span>
+                  <span class="nav__title">
+                    Обо мне
+                  </span>
+                </a>
+              </li>
+              <li class="nav__item nav__item_active">
+                <a href="#" class="nav__link">
+                  <span class="nav__icon">
+                    <i class="fa fa-rocket nav__link-icon"></i>
+                  </span>
+                  <span class="nav__title">
+                    Карьерный путь
+                  </span>
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="portfolio.html" class="nav__link">
+                  <span class="nav__icon">
+                    <i class="fa fa-briefcase nav__link-icon"></i>
+                  </span>
+                  <span class="nav__title">
+                    Портфолио
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </aside>
 
-    <!-- MAIN -->
-  <main class="page__content">
-    <div class="career">
-      <h5 class="career__h5">
-        Карьерный путь
-      </h5>
-      <div class="carrer__left">
-        <div class="career__img">
-          <img src="img/content/car.jpg" alt="">
-        </div>
+<!-- main -->
+
+        <main class="page__content cf">
+          <div class="career cf">
+            <div class="career__title">
+              Карьерный путь
+            </div>
+            <div class="career__left">
+              <div class="career__img">
+                <img class="career__pic" src="img/content/car.jpg" alt="career">
+              </div>
+            </div>
+            <div class="career__right">
+              <ul class="career_list">
+                <li class="career__item">
+                  <div class="career__name">
+                    ООО "Звезды путешествий"
+                  </div>
+                  <div class="career__occupation">
+                    Системный Администратор
+                  </div>
+                  <div class="career__time">
+                    2015 - по настоящее
+                  </div>
+                  <div class="career__year">
+                    2017
+                  </div>
+                  <div class="career__circle">
+
+                  </div>
+                </li>
+                <li class="career__item">
+                  <div class="career__name">
+                    ООО "Звезды путешествий"
+                  </div>
+                  <div class="career__occupation">
+                    Системный Администратор
+                  </div>
+                  <div class="career__time">
+                    2015 - по настоящее
+                  </div>
+                  <div class="career__year">
+                    2017
+                  </div>
+                  <div class="career__circle">
+
+                  </div>
+                </li>
+                <li class="career__item">
+                  <div class="career__name">
+                    ООО "Звезды путешествий"
+                  </div>
+                  <div class="career__occupation">
+                    Системный Администратор
+                  </div>
+                  <div class="career__time">
+                    2015 - по настоящее
+                  </div>
+                  <div class="career__year">
+                    2017
+                  </div>
+                  <div class="career__circle">
+
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </main>
       </div>
-      <div class="career__right">
-        <ul class="career__items">
-          <li class="career__item">
-            <a href="#" class="career__link">
-
-            </a>
-          </li>
-          <li class="career__item">
-            <a href="#" class="career__link">
-
-            </a>
-          </li>
-          <li class="career__item">
-            <a href="#" class="career__link">
-
-            </a>
-          </li>
-          <li class="career__item">
-            <a href="#" class="career__link">
-
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </main>
-
+    </section>
   </div>
-</section>
-</div>
 <!-- footer -->
   <footer class="footer">
     <div class="container cf">
@@ -129,23 +165,25 @@
         </div>
       </div>
       <div class="footer__right">
-        <ul class="footer__icons">
-          <li class="footer__item">
-            <a href="#" class="footer__link footer__link_fb">
-              <img src="img/icons/facebook.png" alt="facebook">
-            </a>
-          </li>
-          <li class="footer__item">
-            <a href="#" class="footer__link footer__link_vk">
-              <img src="img/icons/vk.png" alt="vk">
-            </a>
-          </li>
-          <li class="footer__item">
-            <a href="#" class="footer__link footer__link_tw">
-              <img src="img/icons/twitter.png" alt="twitter">
-            </a>
-          </li>
-        </ul>
+        <div class="footer__icons">
+          <ul class="footer__items">
+            <li class="footer__item">
+              <a class="footer__link  footer__link_fb" href="#">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link  footer__link_vk" href="#">
+                <i class="fa fa-vk" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link  footer__link_tw" href="#">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </footer>

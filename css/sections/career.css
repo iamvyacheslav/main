@@ -1,0 +1,114 @@
+.career__left{
+  width: 220px;
+  float: left;}
+
+.career__list{
+  text-align: right;
+  padding-left: 70px;  
+}
+
+.career__item{
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+  width: 380px;
+  padding: 20px;
+  float: right;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.career__item:hover{
+  background: #33c1e3;
+}
+
+.career__name{
+  color: #5a5a5a;
+  font-weight:  bold;
+}
+
+.career__item:hover .career__name{
+  color: #fff;
+}
+
+.career__occupation, .career__time{
+  color: #858585;
+}
+
+.career__item:hover .career__occupation, .career__item:hover .career__time{
+  color: #fff;
+}
+
+.career__item:hover .career__year{
+  font-weight: 600;
+  color: #33c1e3;
+}
+
+.career__item:hover .career__circle{
+  border-color: #94e0f2;
+}
+
+.career__item:after, .career__item:before{
+  content: '';
+  display: block;
+  width: 1px;
+  background: #dddddd;
+  position: absolute;
+  right: 100%;
+  margin-right:17px;
+}
+
+.career__item:before{
+  top: 0;
+  bottom: 0;
+}
+
+.career__item:after{
+  top: 0;
+  bottom: -25px;
+}
+
+.career__right{
+  width: 455px;
+  float: right;
+}
+
+
+.career__pic{
+  width: 220px;
+  height: 220px;
+  border-radius: 10px;
+  background-position: center center;
+  max-width: 100%;
+}
+
+.career__year, .career__circle{
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -15px;
+  line-height: 30px;
+  margin-right: 35px;
+  font-size: 14px;
+  color: #727272;
+}
+
+.career__circle{
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: #33c1e3;
+  margin-top: -10px;
+  margin-left: ;
+  border: 5px solid #f6f6f6;
+  margin-right: 7px;
+  z-index: 1;
+}
+
+.career__circle:hover{
+  border-color: #94e0f2;
+
+}
