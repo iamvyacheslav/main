@@ -47,6 +47,10 @@
     width: 480px;
   }
 
+  .header__left{
+    width: 70%;
+  }
+
   .sidebar{
     width: 100%;
   }
