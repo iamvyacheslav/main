@@ -1,10 +1,15 @@
+.career{
+  max-width: 700px;
+  float: right;
+}
+
 .career__left{
-  width: 220px;
+  width: 30%;
   float: left;}
 
 .career__list{
   text-align: right;
-  padding-left: 70px;  
+  padding-left: 70px;
 }
 
 .career__item{
@@ -72,7 +77,7 @@
 }
 
 .career__right{
-  width: 455px;
+  width: 70%;
   float: right;
 }
 

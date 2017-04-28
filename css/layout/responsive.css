@@ -1,0 +1,56 @@
+@media screen and (max-width: 1200px){
+  .container{
+    width: 960px;
+  }
+}
+
+@media screen and (max-width: 992px){
+  .container{
+    width: 750px;
+  }
+
+  .sidebar{
+    float: none;
+    width: 100%;
+    display: block;
+  }
+
+  .about{
+    float: left;
+    width: 100%;
+  }
+
+  .nav__item{
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .page__content{
+    float: none;
+    width: 100%;
+    display: block;
+  }
+
+  .nav__link{
+    display: inline;
+    text-align: left;;
+    border-right: none;
+  }
+  .nav__item_active .nav__link{
+    border-color: #33c1e3;
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .container{
+    width: 480px;
+  }
+
+  .sidebar{
+    width: 100%;
+  }
+
+  .about{
+    width: 100%;
+  }

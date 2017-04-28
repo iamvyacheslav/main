@@ -1,10 +1,9 @@
 .nav__list{
-  margin-right: 20px;
+  margin-right: 0;
 }
 
 .nav__link{
   display: block;
-  width: 200px;
   padding: 10px 0;
   text-align: right;
   padding-right: 25px;
@@ -28,6 +27,7 @@
 .nav__title{
   margin-left: 13px;
   max-width: 150px;
+  font-size: 18px;
 }
 
 .nav__item_active .nav__link{
