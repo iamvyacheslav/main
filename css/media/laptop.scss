@@ -1,0 +1,40 @@
+@media screen and (max-width: 992px){
+  .container{
+    width: 750px;
+  }
+
+  .sidebar, .page_content{
+    float: none;
+    width: 100%;
+  }
+
+  .sidebar{
+    margin-bottom: 35px;
+  }
+
+  .nav__item{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    padding-right: 25px;
+
+  }
+
+  .nav__link{
+    border: none;
+    padding-right: 0;
+  }
+
+  .about__left{
+    width: 30%;
+  }
+
+  .about__img{
+    width: 165px;
+    height: 165px;
+  }
+
+  .about__right{
+    width: 70%;
+  }
+}

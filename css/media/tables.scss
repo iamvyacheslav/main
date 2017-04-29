@@ -1,0 +1,70 @@
+@media screen and (max-width: 768px){
+  .container{
+    width: 480px;
+  }
+
+  .header__left{
+    width: 70%;
+  }
+
+  .header__right{
+    width: 30%;
+  }
+
+  .contacts{
+    background-image: url("../img/phone.png") center center;
+    width: 32px;
+    height: 32px;
+    font-size: 0;
+  }
+
+  .about{
+    width: 100%;
+  }
+
+  .about__left, .about__right{
+    float: none;
+    width: 100%;
+  }
+
+  .about__img{
+    margin-left: 158px;
+  }
+
+  .about__title{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .page__content{
+    float: none;
+  }
+
+  .download{
+    display: inline-block;
+    margin-left: 150px;
+  }
+
+  .about__text{
+    margin-bottom: 30px;
+  }
+
+  .footer{
+    height: 95px;
+    margin-top: -95px;
+  }
+
+  .wrapper:after{
+    height: 95px;
+  }
+
+  .footer__left, .footer__right{
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+
+  .footer__link{
+    text-align: center;
+  }
+}
