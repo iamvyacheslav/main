@@ -3,6 +3,7 @@
     width: 480px;
   }
 
+
   .header__left{
     width: 70%;
   }
@@ -12,10 +13,11 @@
   }
 
   .contacts{
-    background-image: url("../img/phone.png") center center;
+    background-image: url("../img/phone.png");
     width: 32px;
     height: 32px;
     font-size: 0;
+    margin-top: 22px;
   }
 
   .about{
@@ -35,6 +37,7 @@
     text-align: center;
     margin-bottom: 10px;
   }
+
 
   .page__content{
     float: none;

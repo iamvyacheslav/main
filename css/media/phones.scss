@@ -1,5 +1,26 @@
 @media screen and (max-width: 480px){
-  .continer{
+  .container{
     width: 95%;
+  }
+
+  .user__title{
+    font-size: 14px;
+  }
+
+  .nav__title{
+    font-size: 14px;
+  }
+
+  .fa{
+    font-size: 0;
+  }
+
+  .about__desc{
+    font-size: 16px;
+  }
+
+  .about__img, .about__pic{
+    width: 140px;
+    height: 140px;
   }
 }
