@@ -3153,7 +3153,7 @@ img {
     padding-right: 0; }
   .about__left {
     width: 30%; }
-  .about__img {
+  .about__img, .about__pic {
     width: 165px;
     height: 165px; }
   .about__right {
@@ -3182,7 +3182,7 @@ img {
     width: 100%; }
   .about__img {
     margin-left: 158px; }
-  .about__title {
+  .about__title, .career__title, .career__img {
     text-align: center;
     margin-bottom: 10px; }
   .page__content {
@@ -3204,6 +3204,13 @@ img {
   .footer__link {
     text-align: center; }
   .footer__icons {
-    margin-right: 188px; } }
+    margin-right: 188px; }
+  .career__left, .career__right {
+    float: none;
+    width: 100%; }
+  .career {
+    padding-bottom: 100px; }
+  .portfolio {
+    padding-bottom: 100px; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -31,7 +31,7 @@
     margin-left: 158px;
   }
 
-  .about__title{
+  .about__title, .career__title, .career__img{
     text-align: center;
     margin-bottom: 10px;
   }
@@ -70,5 +70,22 @@
 
   .footer__icons{
     margin-right: 188px;
+  }
+
+  // career
+
+  .career__left, .career__right{
+    float: none;
+    width: 100%;
+  }
+
+  .career{
+    padding-bottom: 100px;
+  }
+
+  // portfolio
+
+  .portfolio{
+    padding-bottom: 100px;
   }
 }
