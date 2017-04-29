@@ -13,6 +13,7 @@
     float: none;
     width: 100%;
     display: block;
+    margin-bottom: 40px;
   }
 
   .about{
@@ -34,11 +35,11 @@
   .nav__link{
     display: inline;
     text-align: left;;
-    border-right: none;
+    border-color: none;
   }
+
   .nav__item_active .nav__link{
     border-color: #33c1e3;
-    font-weight: 600;
   }
 }
 
@@ -51,10 +52,17 @@
     width: 70%;
   }
 
-  .sidebar{
-    width: 100%;
+  .header__right{
+    width: 25%;
   }
 
-  .about{
+  .about__left{
     width: 100%;
+    float: none;
   }
+
+  .about__right{
+    width: 100%;
+    float: none;
+  }
+}

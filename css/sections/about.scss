@@ -1,0 +1,54 @@
+.about__img{
+  width: 220px;
+  height: 220px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+.about{
+  width: 700px;
+}
+
+.about__pic{
+  max-width: 220px;
+  max-height: 220px;
+}
+
+.about__left{
+  width: 300px;
+  float: left;
+}
+
+.about__right{
+  width: 380px;
+  float: right;
+}
+
+.about__h5{
+  font-weight: 500;
+  font-size: 35px;
+  color: #414141;
+  margin-bottom: 30px;
+}
+
+.about__title{
+  font-size: 35px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+
+.about__desc{
+  height: 300px;
+  overflow: auto;
+}
+
+.about__text{
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.about__text p{
+  margin-bottom: 15px;
+  margin-top: 0px;
+}
