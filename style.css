@@ -1,0 +1,76 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(img/bg/geometry2.png) ;
+}
+
+*{
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  min-height: 100%;
+  position: absolute;
+}
+
+.container{
+  margin: 0 auto;
+}
+
+.block{
+
+}
+
+.block__top{
+  width: 300px;
+  height: 155px;
+  background: #ffffff;
+  border-radius: 6px 6px 0 0;
+  position: relative;
+}
+
+.block__pic{
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.block__name{
+  font-size: 21px;
+  color: 414141px;
+  text-align: center;
+  position: relative;
+  top: 90px;
+}
+
+.block__bottom{
+  width: 300px;
+  height: 80px;
+  background: #33c1e3;
+  border-radius: 0 0 7px 7px;
+  position: relative;
+}
+
+.block__button{
+  border-radius: 25px;
+  text-align: center;
+  border: 2px solid #fff;
+  position: relative;
+  top: 20px;
+  left: 50%;
+  margin-left: -70px;
+  width: 140px;
+  height: 40px;
+}
+
+.button__link{
+  line-height: 28px;
+  font-size: 14px;
+  color: #fff;
+}
+
+a{
+  text-decoration: none;
+}
